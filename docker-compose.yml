@@ -18,4 +18,9 @@ services:
     ports:
       - "5011:5011"
 
+  service8:  
+    build: ./service8
+    ports:
+      - "5008:5008"
+
 
